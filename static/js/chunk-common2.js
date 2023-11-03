@@ -11925,8 +11925,8 @@
                   , a = arguments.length > 4 ? arguments[4] : void 0;
                 Object(m["a"])(this, e),
                 this.titles = t.title ? t.title.split("\n") : void 0,
-                this.titleSize = t.titlesize ? t.titlesize * e.scale : 1.5 * a
-                // this.createQrcode(t.link, i, n, s)
+                this.titleSize = t.titlesize ? t.titlesize * e.scale : 1.5 * a,
+                 this.createQrcode(t.link, i, n, s)
             }
             return Object(v["a"])(e, [{
                 key: "createQrcode",
